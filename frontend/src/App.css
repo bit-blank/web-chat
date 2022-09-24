@@ -1,0 +1,54 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: black;
+}
+
+.ChatWindow {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 650px;
+  background: rgb(15, 41, 28);
+  padding: 1.5rem;
+  border-radius: 5px;
+}
+
+.MessageList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-grow: 1;
+  background: rgb(94, 151, 103);
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.UserInput {
+  display: flex;
+}
+
+.UserInput > input[type=text] {
+  flex-grow: 1;
+  padding: 5px;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+
+.UserInput > input[type=submit] {
+  width: 120px;
+}
+
+.MessageBubble {
+  background: rgb(77, 204, 77);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 5px;
+  font-weight: 600px;
+}
+
+.Right {
+  align-self: flex-end;
+}
